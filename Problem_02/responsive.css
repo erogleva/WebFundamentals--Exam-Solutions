@@ -1,0 +1,40 @@
+@media screen and (max-width: 640px) {
+    body {
+        text-align: center;
+    }
+
+    .nav-primary, .second-row {
+        flex-flow: row wrap;
+    }
+
+    .urbeats-right, .mixr-left {
+        flex: 1 100%;
+        align-items: center;
+        padding: 2.8rem;
+    }
+
+    .studio {
+        padding: 2rem;
+        height: auto;
+    }
+
+    .nav-item > a {
+        margin-right: 0;
+    }
+
+    .nav-item {
+        flex: 1 100%;
+        padding: 10px;
+    }
+
+    .product-img {
+        width: 45%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .sr-cta, .solo-cta, .studio-cta {
+        padding: .7rem 2rem;
+    }
+}

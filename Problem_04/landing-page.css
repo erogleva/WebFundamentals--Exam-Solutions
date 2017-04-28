@@ -1,0 +1,207 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #464646;
+    margin: 0;
+}
+
+.nav-primary {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 70%;
+    margin: 40px auto;
+    padding: 0;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #A0A0A0;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+
+.nav-item a:hover {
+    color: #464646;
+    border-bottom: 2px solid #A0A0A0;
+    cursor: pointer;
+}
+
+.solo {
+    height: 100vh;
+    display: flex;
+}
+
+.solo-description {
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.solo img {
+    width: 50%;
+}
+
+.solo-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.solo p {
+    width: 75%;
+}
+
+.btn {
+    background: #FF0000;
+    color: #fff;
+    outline: none;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #DC0202;
+    cursor: pointer;
+}
+
+.powerbeats {
+    background-color: #FBFCFF;
+    height: 100vh;
+    padding: 30px;
+}
+
+.powerbeats img {
+    width: 40%;
+    float: left;
+}
+
+.powerbeats-title {
+    text-transform: uppercase;
+    font-size: 3.3rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.powerbeats-subtitle {
+    margin-top: 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+    left: 100px;
+}
+
+.powerbeats-subtitle span {
+    font-weight: 900;
+}
+
+.powerbeats-description {
+    float: right;
+    width: 45%;
+}
+
+.powerbeats p {
+    width: 60%;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.price {
+    font-weight: 900;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+.powerbeats-cta {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.trial {
+    background-color: #575757;
+    color: #fff;
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+    padding: 25px;
+}
+
+.trial-description {
+    width: 45%;
+    margin: 30px auto 100px;
+}
+
+.beats-logo {
+    float: left;
+}
+
+.trial-title {
+    margin-top: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    position: relative;
+    top: 40px;
+}
+
+.trial-title span {
+    font-weight: 900;
+}
+
+.trial-link {
+    clear: both;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.beats-red {
+    background-color: #DADADA;
+    display: flex;
+}
+
+.beats-red-title {
+    flex: 1 0;
+}
+
+.red-title {
+    font-size: 8rem;
+    text-transform: uppercase;
+    padding-left: 40px;
+    line-height: 7rem;
+    letter-spacing: -7px;
+    width: 50%;
+}
+
+.red-subtitle {
+    padding-left: 40px;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.red-subtitle span {
+    text-transform: uppercase;
+    color: #FF0000;
+    font-weight: 900;
+}
+
+.beats-red-img {
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
